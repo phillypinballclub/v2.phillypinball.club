@@ -1,0 +1,50 @@
+{
+  "Main": {
+    "name": {
+      "type": "Text",
+      "config": {
+        "label": "Name",
+        "placeholder": "Barcade"
+      }
+    },
+    "neighborhood": {
+      "type": "Text",
+      "config": {
+        "label": "Neighborhood",
+        "placeholder": "Fishtown"
+      }
+    },
+    "street_address": {
+      "type": "Text",
+      "config": {
+        "label": "Street Address"
+      }
+    },
+    "city": {
+      "type": "Text",
+      "config": {
+        "label": "City"
+      }
+    },
+    "state": {
+      "type": "Text",
+      "config": {
+        "label": "State",
+        "placeholder": "PA"
+      }
+    },
+    "zip": {
+      "type": "Text",
+      "config": {
+        "label": "Zip"
+      }
+    },
+    "google_maps_link": {
+      "type": "Link",
+      "config": {
+        "label": "Google Maps Link",
+        "placeholder": "https://goo.gl/maps/zj8x1HfB5zZGa2wS6"
+      }
+    }
+  }
+}

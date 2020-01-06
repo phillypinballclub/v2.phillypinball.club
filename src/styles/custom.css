@@ -1,0 +1,3 @@
+.glowing {
+  @apply text-epsilon text-shadow-epsilon;
+}

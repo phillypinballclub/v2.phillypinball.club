@@ -1,0 +1,31 @@
+{
+  "Main": {
+    "page_title": {
+      "type": "Text",
+      "config": {
+        "label": "Page Title"
+      }
+    },
+    "season": {
+      "type": "Text",
+      "config": {
+        "label": "Season",
+        "placeholder": "2020 Winter Season"
+      }
+    },
+    "intro": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, heading3, heading4, heading5, heading6, strong, em, hyperlink, list-item, o-list-item",
+        "label": "Intro"
+      }
+    },
+    "content": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, list-item, o-list-item",
+        "label": "Content"
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Main": {
+    "title": {
+      "type": "Text",
+      "config": {
+        "label": "Title"
+      }
+    },
+    "date_and_time": {
+      "type": "Timestamp",
+      "config": {
+        "label": "Date and Time"
+      }
+    },
+    "venue": {
+      "type": "Link",
+      "config": {
+        "select": "document",
+        "customtypes": ["venue"],
+        "label": "Venue"
+      }
+    }
+  }
+}

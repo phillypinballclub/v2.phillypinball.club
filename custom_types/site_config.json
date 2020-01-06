@@ -1,0 +1,22 @@
+{
+  "Main": {
+    "site_title": {
+      "type": "Text",
+      "config": {
+        "label": "Site Title"
+      }
+    },
+    "site_description": {
+      "type": "Text",
+      "config": {
+        "label": "Site Description"
+      }
+    },
+    "standings_link": {
+      "type": "Link",
+      "config": {
+        "label": "Standings Link"
+      }
+    }
+  }
+}
