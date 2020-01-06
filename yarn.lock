@@ -4913,9 +4913,9 @@ gatsby-telemetry@^1.1.46:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-monolog@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-monolog/-/gatsby-theme-monolog-1.2.0.tgz#50aa2e2dd090b4df5795958433224db293a642b2"
+gatsby-theme-monolog@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-monolog/-/gatsby-theme-monolog-1.2.1.tgz#bbbd25362321d78b73ff8c8019a9b1281fe59754"
   dependencies:
     autoprefixer "^9.7.3"
     gatsby-plugin-postcss "^2.1.18"
