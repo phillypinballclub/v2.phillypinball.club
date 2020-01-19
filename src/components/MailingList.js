@@ -93,6 +93,7 @@ const MailingList = () => {
         data-netlify-honeypot="bot-field"
       >
         <input type="hidden" name="form-name" value="mailing-list" />
+        <input type="hidden" name="bot-field" />
         <input
           name="email"
           placeholder="name@email.com"
