@@ -84,7 +84,7 @@ const MailingList = () => {
       </p>
       {!validated && <ValidationMessage />}
       <form
-        onSubmit={e => handleSubmit(e)}
+        onSubmit={handleSubmit}
         ref={ref}
         className="mt-5 mb-6 flex"
         name="mailing-list"
