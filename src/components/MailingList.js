@@ -84,6 +84,7 @@ const MailingList = () => {
       </p>
       {!validated && <ValidationMessage />}
       <form
+        onSubmit={e => handleSubmit(e)}
         ref={ref}
         className="mt-5 mb-6 flex"
         name="mailing-list"
@@ -99,7 +100,7 @@ const MailingList = () => {
           className="block bg-iota text-epsilon rounded py-2 px-4 leading-tight focus: outline-none focus:shadow-outline"
         />
         <button
-          onClick={handleSubmit}
+          type="submit"
           className="box-glow bg-alpha hover:bg-epsilon text-white hover:text-theta font-bold py-1 px-4 rounded ml-2"
         >
           Submit
