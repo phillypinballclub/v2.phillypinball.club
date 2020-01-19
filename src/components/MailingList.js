@@ -88,7 +88,6 @@ const MailingList = () => {
         ref={ref}
         className="mt-5 mb-6 flex"
         name="mailing-list"
-        method="post"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
