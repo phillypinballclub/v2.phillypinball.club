@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Jon Long",
   "dependencies": {
+    "axios": "^0.19.1",
     "gatsby": "^2.1.32",
     "gatsby-plugin-manifest": "^2.0.24",
     "gatsby-plugin-offline": "^2.0.25",
@@ -20,6 +21,7 @@
     "prismic-javascript": "^2.0.1",
     "prismic-reactjs": "^1.1.2",
     "prop-types": "^15.7.2",
+    "qs": "^6.9.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0"

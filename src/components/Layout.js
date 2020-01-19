@@ -3,6 +3,7 @@ import { StaticQuery, graphql } from "gatsby"
 import { Helmet } from "react-helmet"
 import { Wrapper } from "gatsby-theme-monolog/src/components/Layout"
 import Nav from "./Nav"
+import MailingList from "./MailingList"
 
 export default props => (
   <StaticQuery
@@ -54,6 +55,9 @@ const Layout = ({ pageTitle, data, children }) => {
         <Wrapper>
           <Nav standings={standings} />
           {children}
+          <div className="mt-5">
+            <MailingList />
+          </div>
         </Wrapper>
       </main>
     </Fragment>

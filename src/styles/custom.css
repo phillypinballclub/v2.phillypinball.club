@@ -1,3 +1,26 @@
 .glowing {
   @apply text-epsilon text-shadow-epsilon;
 }
+
+.box-glow {
+  transition: all 0.2s ease-in-out;
+  animation: pulse 2000ms infinite;
+
+  &:hover {
+    box-shadow: var(--shadow-epsilon);
+    animation: none;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: var(--shadow-alpha);
+  }
+  40% {
+    box-shadow: 0 0 2px #000, 0 0 10px #fc1f2c75, 0 0 2px #fc1f2c75,
+      0 0 20px #fc1f2c75;
+  }
+  100% {
+    box-shadow: var(--shadow-alpha);
+  }
+}
