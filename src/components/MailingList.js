@@ -76,44 +76,38 @@ const MailingList = () => {
   return (
     <Content>
       <h1>Mailing List</h1>
-
-      {submitted ? (
-        <SuccessMessage />
-      ) : (
-        <Fragment>
-          <p>
-            The best place to keep up with the PPC is on our mailing list.
-            During the season we'll send out an email every week with reminders,
-            updates, and announcements, so if you're looking to stay in the
-            know, this is the place to be.
-          </p>
-          {!validated && <ValidationMessage />}
-          <form
-            ref={ref}
-            className="mt-5 mb-6 flex"
-            name="mailing-list"
-            method="post"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
-          >
-            <input type="hidden" name="form-name" value="mailing-list" />
-            <input
-              name="email"
-              placeholder="name@email.com"
-              type="email"
-              className="block bg-iota text-epsilon rounded py-2 px-4 leading-tight focus: outline-none focus:shadow-outline"
-            />
-            <button
-              onClick={handleSubmit}
-              className="box-glow bg-alpha hover:bg-epsilon text-white hover:text-theta font-bold py-1 px-4 rounded ml-2"
-              type="submit"
-            >
-              Submit
-            </button>
-          </form>
-          {errored && <ErrorMessage />}
-        </Fragment>
-      )}
+      <p>
+        The best place to keep up with the PPC is on our mailing list. During
+        the season we'll send out an email every week with reminders, updates,
+        and announcements, so if you're looking to stay in the know, this is the
+        place to be.
+      </p>
+      {!validated && <ValidationMessage />}
+      <form
+        ref={ref}
+        className="mt-5 mb-6 flex"
+        name="mailing-list"
+        method="post"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+      >
+        <input type="hidden" name="form-name" value="mailing-list" />
+        <input
+          name="email"
+          placeholder="name@email.com"
+          type="email"
+          className="block bg-iota text-epsilon rounded py-2 px-4 leading-tight focus: outline-none focus:shadow-outline"
+        />
+        <button
+          onClick={handleSubmit}
+          className="box-glow bg-alpha hover:bg-epsilon text-white hover:text-theta font-bold py-1 px-4 rounded ml-2"
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+      {submitted && <SuccessMessage />}
+      {errored && <ErrorMessage />}
     </Content>
   )
 }
