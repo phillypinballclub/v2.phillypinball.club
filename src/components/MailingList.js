@@ -101,7 +101,6 @@ const MailingList = () => {
         <button
           onClick={handleSubmit}
           className="box-glow bg-alpha hover:bg-epsilon text-white hover:text-theta font-bold py-1 px-4 rounded ml-2"
-          type="submit"
         >
           Submit
         </button>
