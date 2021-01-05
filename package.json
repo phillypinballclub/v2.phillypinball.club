@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Jon Long",
   "dependencies": {
-    "axios": "^0.19.1",
+    "axios": "^0.21.1",
     "gatsby": "^2.1.32",
     "gatsby-plugin-manifest": "^2.0.24",
     "gatsby-plugin-offline": "^2.0.25",
