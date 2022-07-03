@@ -16,9 +16,11 @@ const MailingList = () => {
         method="post"
         target="popupwindow"
         onsubmit="window.open('https://buttondown.email/phillypinballclub', 'popupwindow')"
-        class="embeddable-buttondown-form"
+        className="mt-5 mb-6 flex"
       >
-        <label for="bd-email" class="sr-only">Enter your email</label>
+        <label for="bd-email" class="sr-only">
+          Enter your email
+        </label>
         <input
           id="bd-email"
           name="email"
