@@ -15,6 +15,7 @@ export const query = graphql`
               type
             }
             page_title
+            season
             intro
             content
           }
@@ -54,7 +55,7 @@ export default ({ data }) => {
     <Layout pageTitle={page.page_title}>
       <h1>{page.page_title}</h1>
       <Content data={page.intro} />
-      <h2 className="mt-6">2020 Winter Season</h2>
+      <h2 className="mt-6">{page.season}</h2>
       <MeetupList data={meetups} />
       <Content data={page.content} />
     </Layout>
