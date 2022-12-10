@@ -21,7 +21,7 @@
     "prismic-javascript": "^2.0.1",
     "prismic-reactjs": "^1.1.2",
     "prop-types": "^15.7.2",
-    "qs": "^6.9.1",
+    "qs": "^6.9.7",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0"
